@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.transactions.PaymentActivity">
+
+    <View
+        android:id="@+id/green_bg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#78DEC7"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/payment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#78DEC7"
+        android:text="Pay"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="64dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pay_tv"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/green_bg"
+        android:layout_alignTop="@+id/green_bg"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

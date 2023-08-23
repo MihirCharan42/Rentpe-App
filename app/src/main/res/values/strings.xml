@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RentPe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_images">View Images</string>
+    <string name="add_images">Add Images</string>
+    <string name="update_your_house_details">Update Your House Details</string>
+    <string name="tenant_name">Tenant Name</string>
+    <string name="tenant_number">Tenant Number</string>
+    <string name="landlord_name">Landlord Name</string>
+    <string name="landlord_number">Landlord Number</string>
+    <string name="address">Address</string>
+    <string name="description">Description</string>
+    <string name="rent">Rent</string>
+    <string name="update">Update</string>
+    <string name="pay_rent">Pay rent</string>
+    <string name="add_your_house_details">Add Your House Details</string>
+    <string name="save">Save</string>
+</resources>
